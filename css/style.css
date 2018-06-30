@@ -38,22 +38,28 @@
   color: #d3897e;
 }
 
+.form-control:focus {
+  border-color: #f3af8f;
+  box-shadow: inset 0 1px 1px #f3af8f, 0 0 8px #d3897e;
+}
+
 /* Jumbotron */
 .jumbotron {
 margin-top: 20px;
-background-image: url("../Images/slide2.jpg");
+background-image: url("../Images/Paintings/abstract-abstract-expressionism-abstract-painting-1070527 (1).jpg");
 background-size: cover;
 height: 400px;
 padding : 10px;
 }
 
-.jumbotron_header {
-  text-transform: uppercase;
-}
-
 .jumbotron_text {
   font-size: 20px;
-  color: grey;
+  color: black;
+  padding-top: 50px;
+}
+
+.jumbotron_header {
+  text-transform: uppercase;
 }
 
 .jumbotron-fluid {
@@ -94,7 +100,6 @@ a:active {
   color: #f3af8f;
 }
 
-
 .list-item-a {
   list-style-type: none;
   font-weight: bold;
@@ -107,21 +112,25 @@ a:active {
 
 /* carousel */
 .carousel-inner {
-padding-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.carousel-caption {
+  color: black;
 }
 
 /* Footer */
 .container .card-body{
   padding-left: 0px;
   padding-right: 0px;
-  padding-bottom:0px;
+  padding-bottom: 0px;
 }
 
 .blockquote {
 padding-top: 5px;
 padding-left: 0px;
 padding-right: 0px;
-padding-bottom:0px;
+padding-bottom:5px;
 font-size: 18px;
-text-align: right;
 }
